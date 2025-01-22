@@ -1,0 +1,102 @@
+/* Estilo base */
+body {
+  font-family: Arial, sans-serif; /* Fondo rosa pastel */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #f5e0ff, #fbf3ff);
+}
+
+.container {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px; /* Esquinas suaves */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+/* Efecto al pasar el mouse sobre la tarjeta */
+.container:hover {
+  transform: translateY(-10px); /* Eleva ligeramente la tarjeta */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+.container h1 {
+  font-size: 24px;
+  color: #d81b60c2; /* Rosa intenso */
+  margin-bottom: 5px;
+}
+
+.container p {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.container label {
+  display: block;
+  font-weight: bold;
+  color: #d81b60c2; /* Color cálido */
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 16px; /* Tamaño de fuente más grande */
+  font-family: "Arial", sans-serif; /* Fuente más agradable */
+  margin-left: 10px; /* Alineación del texto */
+}
+
+.container input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.container button {
+  background: #d81b609f; /* Color cálido */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease; /* Animación suave */
+}
+
+.container button:hover {
+  background: #9c0846; /* Color pastel */
+  transform: scale(1.05); /* Aumenta ligeramente al pasar el mouse */
+}
+
+.result {
+  background: #f8e1f4; /* Color pastel */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333333; /* Color de texto oscuro para contraste */
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result-background {
+  background: #64aa8f9d; /* Color pastel */
+  color: #333333; /* Color de texto oscuro para contraste */
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.footer {
+  font-size: 12px;
+  color: #a8a8a8; /* Color pastel */
+  margin-top: 10px;
+}
